@@ -1,0 +1,24 @@
+.study-group-container {
+    max-width: 800px;
+    margin: 50px auto;
+    padding: 20px;
+    background: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.study-group-container h2 {
+    margin-bottom: 20px;
+}
+
+.study-group-container ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.study-group-container ul li {
+    padding: 10px;
+    margin-bottom: 10px;
+    background-color: #f3f3f3;
+    border-radius: 4px;
+}

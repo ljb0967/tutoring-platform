@@ -1,0 +1,94 @@
+/* Dashboard.css */
+
+.dashboard-container {
+    max-width: 900px;
+    margin: 50px auto;
+    padding: 40px;
+    background-color: #f9f9f9;
+    border-radius: 15px;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.05);
+    font-family: 'Helvetica Neue', Arial, sans-serif;
+}
+
+.dashboard-container img {
+    border-radius: 50%;
+    width: 150px;  /* 이미지를 150x150으로 키움 */
+    height: 150px;  /* 비율 유지하면서 둥글게 */
+    margin-bottom: 20px;
+    border: 3px solid #007bff;  /* 테두리를 더 굵게 */
+}
+
+.dashboard-container h1 {
+    font-size: 2.2rem;
+    color: #333;
+    margin-bottom: 25px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.dashboard-container h1::before {
+    content: '👋';  /* 사용자 환영하는 이모티콘 */
+    font-size: 2.5rem;
+}
+
+.dashboard-container p {
+    font-size: 1.1rem;
+    color: #666;
+    margin-bottom: 10px;
+}
+
+.dashboard-container nav {
+    margin: 30px 0;
+}
+
+.dashboard-container nav a {
+    display: inline-block;
+    margin-right: 15px;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: white;
+    text-decoration: none;
+    border-radius: 8px;
+    font-weight: 600;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.dashboard-container nav a:hover {
+    background-color: #0056b3;
+    transform: translateY(-2px);
+}
+
+.tutor-register-btn,
+.tutor-search-btn {
+    display: inline-block;
+    margin: 15px 10px;
+    padding: 12px 30px;
+    background-color: #28a745;
+    color: white;
+    font-size: 1rem;
+    font-weight: bold;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+.tutor-register-btn:hover,
+.tutor-search-btn:hover {
+    background-color: #218838;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.dashboard-actions {
+    display: flex;
+    gap: 20px;
+}
+
+.tutor-register-btn::before {
+    content: '📝';  /* 튜터 등록 이모티콘 */
+}
+
+.tutor-search-btn::before {
+    content: '🔍';  /* 튜터 검색 이모티콘 */
+}
